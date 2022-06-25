@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ReactiveProgrammingApplicationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ReactiveProgrammingApplicationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.reactive.programming.html">com.reactive.programming</a> &gt; ReactiveProgrammingApplicationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.048s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">concatFlux()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnFluxDefaultIfEmptyTest()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnFluxFlatMAPTest()</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnFluxFlatTransform()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnFluxMAPTest()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnFluxSwitchIfEmptyTest()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnFluxTest()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnMonoFlatMAPTest()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">zipFluxTest()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2022-06-25 17:10:58.964  INFO 1348 --- [    Test worker] reactor.Flux.ConcatArray.5               : onSubscribe(FluxConcatArray.ConcatArraySubscriber)
+2022-06-25 17:10:58.964  INFO 1348 --- [    Test worker] reactor.Flux.ConcatArray.5               : request(unbounded)
+2022-06-25 17:10:58.964  INFO 1348 --- [    Test worker] reactor.Flux.ConcatArray.5               : onNext(Abc)
+2022-06-25 17:10:58.964  INFO 1348 --- [    Test worker] reactor.Flux.ConcatArray.5               : onNext(Def)
+2022-06-25 17:10:58.964  INFO 1348 --- [    Test worker] reactor.Flux.ConcatArray.5               : onComplete()
+2022-06-25 17:10:58.974  INFO 1348 --- [    Test worker] reactor.Flux.Zip.6                       : onSubscribe(FluxZip.ZipCoordinator)
+2022-06-25 17:10:58.974  INFO 1348 --- [    Test worker] reactor.Flux.Zip.6                       : request(unbounded)
+2022-06-25 17:10:58.975  INFO 1348 --- [    Test worker] reactor.Flux.Zip.6                       : onNext(AD)
+2022-06-25 17:10:58.975  INFO 1348 --- [    Test worker] reactor.Flux.Zip.6                       : onNext(BE)
+2022-06-25 17:10:58.976  INFO 1348 --- [    Test worker] reactor.Flux.Zip.6                       : onNext(CF)
+2022-06-25 17:10:58.976  INFO 1348 --- [    Test worker] reactor.Flux.Zip.6                       : onComplete()
+2022-06-25 17:10:58.984  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onSubscribe(FluxFlatMap.FlatMapMain)
+2022-06-25 17:10:58.985  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : request(unbounded)
+2022-06-25 17:10:58.986  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(R)
+2022-06-25 17:10:58.986  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(A)
+2022-06-25 17:10:58.986  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(N)
+2022-06-25 17:10:58.986  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(J)
+2022-06-25 17:10:58.987  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(I)
+2022-06-25 17:10:58.987  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(T)
+2022-06-25 17:10:58.987  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(H)
+2022-06-25 17:10:58.988  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(F)
+2022-06-25 17:10:58.989  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(E)
+2022-06-25 17:10:58.990  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(R)
+2022-06-25 17:10:58.991  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(N)
+2022-06-25 17:10:58.991  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(A)
+2022-06-25 17:10:58.992  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(N)
+2022-06-25 17:10:58.992  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(D)
+2022-06-25 17:10:58.992  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onNext(O)
+2022-06-25 17:10:58.992  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.7                   : onComplete()
+2022-06-25 17:10:58.996  INFO 1348 --- [    Test worker] reactor.Flux.DefaultIfEmpty.8            : onSubscribe([Fuseable] FluxDefaultIfEmpty.DefaultIfEmptySubscriber)
+2022-06-25 17:10:58.997  INFO 1348 --- [    Test worker] reactor.Flux.DefaultIfEmpty.8            : request(unbounded)
+2022-06-25 17:10:58.997  INFO 1348 --- [    Test worker] reactor.Flux.DefaultIfEmpty.8            : onNext(default)
+2022-06-25 17:10:58.997  INFO 1348 --- [    Test worker] reactor.Flux.DefaultIfEmpty.8            : onComplete()
+2022-06-25 17:10:59.000  INFO 1348 --- [    Test worker] reactor.Flux.FilterFuseable.9            : | onSubscribe([Fuseable] FluxFilterFuseable.FilterFuseableSubscriber)
+2022-06-25 17:10:59.001  INFO 1348 --- [    Test worker] reactor.Flux.FilterFuseable.9            : | request(unbounded)
+2022-06-25 17:10:59.001  INFO 1348 --- [    Test worker] reactor.Flux.FilterFuseable.9            : | onNext(RANJITH)
+2022-06-25 17:10:59.002  INFO 1348 --- [    Test worker] reactor.Flux.FilterFuseable.9            : | onNext(FERNANDO)
+2022-06-25 17:10:59.002  INFO 1348 --- [    Test worker] reactor.Flux.FilterFuseable.9            : | onComplete()
+2022-06-25 17:10:59.004  INFO 1348 --- [    Test worker] reactor.Flux.DefaultIfEmpty.10           : onSubscribe([Fuseable] FluxDefaultIfEmpty.DefaultIfEmptySubscriber)
+2022-06-25 17:10:59.004  INFO 1348 --- [    Test worker] reactor.Flux.DefaultIfEmpty.10           : request(unbounded)
+2022-06-25 17:10:59.005  INFO 1348 --- [    Test worker] reactor.Flux.DefaultIfEmpty.10           : onNext(default)
+2022-06-25 17:10:59.005  INFO 1348 --- [    Test worker] reactor.Flux.DefaultIfEmpty.10           : onComplete()
+2022-06-25 17:10:59.010  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onSubscribe(FluxFlatMap.FlatMapMain)
+2022-06-25 17:10:59.011  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : request(unbounded)
+2022-06-25 17:10:59.011  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(R)
+2022-06-25 17:10:59.011  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(A)
+2022-06-25 17:10:59.012  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(N)
+2022-06-25 17:10:59.012  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(J)
+2022-06-25 17:10:59.012  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(I)
+2022-06-25 17:10:59.012  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(T)
+2022-06-25 17:10:59.013  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(H)
+2022-06-25 17:10:59.013  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(F)
+2022-06-25 17:10:59.013  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(E)
+2022-06-25 17:10:59.013  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(R)
+2022-06-25 17:10:59.013  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(N)
+2022-06-25 17:10:59.013  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(A)
+2022-06-25 17:10:59.013  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(N)
+2022-06-25 17:10:59.014  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(D)
+2022-06-25 17:10:59.014  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onNext(O)
+2022-06-25 17:10:59.014  INFO 1348 --- [    Test worker] reactor.Flux.FlatMap.12                  : onComplete()
+2022-06-25 17:10:59.017  INFO 1348 --- [    Test worker] reactor.Flux.Iterable.13                 : | onSubscribe([Synchronous Fuseable] FluxIterable.IterableSubscription)
+2022-06-25 17:10:59.017  INFO 1348 --- [    Test worker] reactor.Flux.Iterable.13                 : | request(unbounded)
+2022-06-25 17:10:59.017  INFO 1348 --- [    Test worker] reactor.Flux.Iterable.13                 : | onNext(Alex)
+2022-06-25 17:10:59.017  INFO 1348 --- [    Test worker] reactor.Flux.Iterable.13                 : | onNext(Ranjith)
+2022-06-25 17:10:59.017  INFO 1348 --- [    Test worker] reactor.Flux.Iterable.13                 : | onNext(Fernando)
+2022-06-25 17:10:59.018  INFO 1348 --- [    Test worker] reactor.Flux.Iterable.13                 : | onComplete()
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at 25-Jun-2022, 5:10:59 pm</p>
+</div>
+</div>
+</body>
+</html>

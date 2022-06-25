@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - FluxMonoControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>FluxMonoControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.reactive.programming.controller.html">com.reactive.programming.controller</a> &gt; FluxMonoControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.822s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">flux()</td>
+<td class="success">0.027s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux_approach2()</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">monoTest()</td>
+<td class="success">0.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">stream()</td>
+<td class="success">4.756s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>17:10:51.403 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:10:51.417 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:10:51.483 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.reactive.programming.controller.FluxMonoControllerTest] from class [org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTestContextBootstrapper]
+17:10:51.498 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reactive.programming.controller.FluxMonoControllerTest], using SpringBootContextLoader
+17:10:51.504 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reactive.programming.controller.FluxMonoControllerTest]: class path resource [com/reactive/programming/controller/FluxMonoControllerTest-context.xml] does not exist
+17:10:51.505 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reactive.programming.controller.FluxMonoControllerTest]: class path resource [com/reactive/programming/controller/FluxMonoControllerTestContext.groovy] does not exist
+17:10:51.505 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.reactive.programming.controller.FluxMonoControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:10:51.506 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reactive.programming.controller.FluxMonoControllerTest]: FluxMonoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:10:51.622 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.reactive.programming.controller.FluxMonoControllerTest]
+17:10:51.699 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\Java Projects\ReactiveProgramming\ReactorCore\build\classes\java\main\com\reactive\programming\ReactiveProgrammingApplication.class]
+17:10:51.700 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reactive.programming.ReactiveProgrammingApplication for test class com.reactive.programming.controller.FluxMonoControllerTest
+17:10:51.704 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTestContextBootstrapper - @TestExecutionListeners is not present for class [com.reactive.programming.controller.FluxMonoControllerTest]: using defaults.
+17:10:51.705 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:10:51.712 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+17:10:51.719 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4879f0f2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@47db5fa5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@354fc8f0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@41813449, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4678a2eb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5b43fbf6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1080b026, org.springframework.test.context.event.EventPublishingTestExecutionListener@58ebfd03, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5b07730f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fdfafd2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@a4b2d8f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@dcfda20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6d304f9d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@f73dcd6]
+17:10:51.724 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@55b5f5d2 testClass = FluxMonoControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [ReactiveWebMergedContextConfiguration@5bfa8cc5 testClass = FluxMonoControllerTest, locations = '{}', classes = '{class com.reactive.programming.ReactiveProgrammingApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@35229f85, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4758820d, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@b1079eeb, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@9164a3d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@23aa363a, [ImportsContextCustomizer@666b83a4 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration, org.springframework.boot.autoconfigure.web.reactive.error.ErrorWebFluxAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.reactive.ReactiveOAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.reactive.ReactiveOAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1d470d0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@65045a87, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+17:10:51.738 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@55b5f5d2 testClass = FluxMonoControllerTest, testInstance = com.reactive.programming.controller.FluxMonoControllerTest@4c37b5b, testMethod = [null], testException = [null], mergedContextConfiguration = [ReactiveWebMergedContextConfiguration@5bfa8cc5 testClass = FluxMonoControllerTest, locations = '{}', classes = '{class com.reactive.programming.ReactiveProgrammingApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@35229f85, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4758820d, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@b1079eeb, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@9164a3d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@23aa363a, [ImportsContextCustomizer@666b83a4 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration, org.springframework.boot.autoconfigure.web.reactive.error.ErrorWebFluxAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.reactive.ReactiveOAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.reactive.ReactiveOAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1d470d0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@65045a87, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.0)
+
+2022-06-25 17:10:52.215  INFO 1348 --- [    Test worker] c.r.p.controller.FluxMonoControllerTest  : Starting FluxMonoControllerTest using Java 17.0.3.1 on DESKTOP-Q4565GE with PID 1348 (started by HP in D:\Java Projects\ReactiveProgramming\ReactorCore)
+2022-06-25 17:10:52.218  INFO 1348 --- [    Test worker] c.r.p.controller.FluxMonoControllerTest  : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2022-06-25 17:10:54.106  INFO 1348 --- [    Test worker] c.r.p.controller.FluxMonoControllerTest  : Started FluxMonoControllerTest in 2.322 seconds (JVM running for 3.88)
+2022-06-25 17:10:54.853  INFO 1348 --- [     parallel-1] reactor.Flux.Interval.1                  : onSubscribe(FluxInterval.IntervalRunnable)
+2022-06-25 17:10:54.856  INFO 1348 --- [     parallel-1] reactor.Flux.Interval.1                  : request(1)
+2022-06-25 17:10:55.867  INFO 1348 --- [     parallel-2] reactor.Flux.Interval.1                  : onNext(0)
+2022-06-25 17:10:56.002  INFO 1348 --- [    Test worker] reactor.Flux.Interval.1                  : request(31)
+2022-06-25 17:10:56.867  INFO 1348 --- [     parallel-2] reactor.Flux.Interval.1                  : onNext(1)
+2022-06-25 17:10:57.872  INFO 1348 --- [     parallel-2] reactor.Flux.Interval.1                  : onNext(2)
+2022-06-25 17:10:58.859  INFO 1348 --- [     parallel-2] reactor.Flux.Interval.1                  : onNext(3)
+2022-06-25 17:10:58.864  INFO 1348 --- [     parallel-2] reactor.Flux.Interval.1                  : cancel()
+2022-06-25 17:10:58.897  INFO 1348 --- [     parallel-3] reactor.Mono.Just.2                      : | onSubscribe([Synchronous Fuseable] Operators.ScalarSubscription)
+2022-06-25 17:10:58.897  INFO 1348 --- [     parallel-3] reactor.Mono.Just.2                      : | request(unbounded)
+2022-06-25 17:10:58.897  INFO 1348 --- [     parallel-3] reactor.Mono.Just.2                      : | onNext(Hello World)
+2022-06-25 17:10:58.899  INFO 1348 --- [     parallel-3] reactor.Mono.Just.2                      : | onComplete()
+2022-06-25 17:10:58.924  INFO 1348 --- [     parallel-4] reactor.Flux.Array.3                     : | onSubscribe([Synchronous Fuseable] FluxArray.ArraySubscription)
+2022-06-25 17:10:58.924  INFO 1348 --- [     parallel-4] reactor.Flux.Array.3                     : | request(unbounded)
+2022-06-25 17:10:58.925  INFO 1348 --- [     parallel-4] reactor.Flux.Array.3                     : | onNext(1)
+2022-06-25 17:10:58.925  INFO 1348 --- [     parallel-4] reactor.Flux.Array.3                     : | onNext(2)
+2022-06-25 17:10:58.926  INFO 1348 --- [     parallel-4] reactor.Flux.Array.3                     : | onNext(3)
+2022-06-25 17:10:58.926  INFO 1348 --- [     parallel-4] reactor.Flux.Array.3                     : | onComplete()
+2022-06-25 17:10:58.948  INFO 1348 --- [     parallel-1] reactor.Flux.Array.4                     : | onSubscribe([Synchronous Fuseable] FluxArray.ArraySubscription)
+2022-06-25 17:10:58.949  INFO 1348 --- [     parallel-1] reactor.Flux.Array.4                     : | request(unbounded)
+2022-06-25 17:10:58.949  INFO 1348 --- [     parallel-1] reactor.Flux.Array.4                     : | onNext(1)
+2022-06-25 17:10:58.949  INFO 1348 --- [     parallel-1] reactor.Flux.Array.4                     : | onNext(2)
+2022-06-25 17:10:58.949  INFO 1348 --- [     parallel-1] reactor.Flux.Array.4                     : | onNext(3)
+2022-06-25 17:10:58.949  INFO 1348 --- [     parallel-1] reactor.Flux.Array.4                     : | onComplete()
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at 25-Jun-2022, 5:10:59 pm</p>
+</div>
+</div>
+</body>
+</html>
