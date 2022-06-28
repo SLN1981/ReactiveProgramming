@@ -17,12 +17,11 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.when;
 
 @WebFluxTest(controllers = MoveInfoController.class)
 @AutoConfigureWebTestClient
-public class MovieInfoControllerUnitTest {
+public class MovieInfoControllerTest {
 
     @Autowired
     WebTestClient webTestClient;
